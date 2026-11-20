@@ -1,0 +1,731 @@
+#usda 1.0
+(
+    defaultPrim = "Zoo"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Zoo"
+{
+    def Xform "model_railroad_corner_large_ramp" (
+        prepend references = @models/railroad-corner-large-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (1.75623694, 0.00112474, -2.24328363)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_corner_large" (
+        prepend references = @models/railroad-corner-large.usd@
+    )
+    {
+        double3 xformOp:translate = (7.24501128, -0, -2.24363768)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_corner_small_ramp" (
+        prepend references = @models/railroad-corner-small-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (11.7312463, 0.01048028, -1.24469167)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_corner_small" (
+        prepend references = @models/railroad-corner-small.usd@
+    )
+    {
+        double3 xformOp:translate = (17.2198336, -0, -1.24611318)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_curve" (
+        prepend references = @models/railroad-curve.usd@
+    )
+    {
+        double3 xformOp:translate = (22.9545953, -0, -1.99999964)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_corner_large_ramp" (
+        prepend references = @models/railroad-damaged-corner-large-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (29.2043159, 0.00419056416, -2.24493968)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_corner_large" (
+        prepend references = @models/railroad-damaged-corner-large.usd@
+    )
+    {
+        double3 xformOp:translate = (34.6875639, -0, -2.2404803)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_corner_small_ramp" (
+        prepend references = @models/railroad-damaged-corner-small-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (39.1739565, 0.00758993579, -1.24514562)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_corner_small" (
+        prepend references = @models/railroad-damaged-corner-small.usd@
+    )
+    {
+        double3 xformOp:translate = (44.6626234, -0, -1.24153702)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_curve" (
+        prepend references = @models/railroad-damaged-curve.usd@
+    )
+    {
+        double3 xformOp:translate = (50.4004102, -0, -1.99999964)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_bend_large" (
+        prepend references = @models/railroad-damaged-straight-bend-large.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864895, 0.000149965301, -2.00000298)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_bend" (
+        prepend references = @models/railroad-damaged-straight-bend.usd@
+    )
+    {
+        double3 xformOp:translate = (2.17556953e-06, 0.00794231892, 4.48530197)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_bump_down" (
+        prepend references = @models/railroad-damaged-straight-bump-down.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, 0.506191313, 3.48986876)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_bump_up" (
+        prepend references = @models/railroad-damaged-straight-bump-up.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 3.48986828)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_hill_beginning" (
+        prepend references = @models/railroad-damaged-straight-hill-beginning.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659483, 0.000329375296, 3.48986781)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_hill_complete_half" (
+        prepend references = @models/railroad-damaged-straight-hill-complete-half.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9545956, 0.000460863113, 3.48986828)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_hill_complete" (
+        prepend references = @models/railroad-damaged-straight-hill-complete.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4432445, -0, 3.48986828)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_hill_end" (
+        prepend references = @models/railroad-damaged-straight-hill-end.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9318933, -2.86102295e-06, 3.52522409)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_skew_left_side" (
+        prepend references = @models/railroad-damaged-straight-skew-left-side.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4165747, 0.495107412, 3.48986852)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_skew_left" (
+        prepend references = @models/railroad-damaged-straight-skew-left.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9080306, 0.344956189, 3.48986828)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_skew_right_side" (
+        prepend references = @models/railroad-damaged-straight-skew-right-side.usd@
+    )
+    {
+        double3 xformOp:translate = (49.4018075, 0.504399121, 3.48986852)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight_skew_right" (
+        prepend references = @models/railroad-damaged-straight-skew-right.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8879908, 0.343922406, 3.48986828)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_damaged_straight" (
+        prepend references = @models/railroad-damaged-straight.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 8.9797368)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_corner_large_ramp" (
+        prepend references = @models/railroad-rail-corner-large-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (7.31364639, 1.19209304e-07, 8.80473411)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_corner_large" (
+        prepend references = @models/railroad-rail-corner-large.usd@
+    )
+    {
+        double3 xformOp:translate = (12.8022953, -0, 8.80473411)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_corner_small_ramp" (
+        prepend references = @models/railroad-rail-corner-small-ramp.usd@
+    )
+    {
+        double3 xformOp:translate = (17.2909456, 2.38418608e-07, 9.80473572)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_corner_small" (
+        prepend references = @models/railroad-rail-corner-small.usd@
+    )
+    {
+        double3 xformOp:translate = (22.7795946, -0, 9.80473566)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_curve" (
+        prepend references = @models/railroad-rail-curve.usd@
+    )
+    {
+        double3 xformOp:translate = (28.4432442, -0, 8.97973716)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_bend_large" (
+        prepend references = @models/railroad-rail-straight-bend-large.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9319091, -0, 8.97973382)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_bend" (
+        prepend references = @models/railroad-rail-straight-bend.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205582, -0, 9.97973537)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_bump_down" (
+        prepend references = @models/railroad-rail-straight-bump-down.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091911, 0.498723298, 8.97973716)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_bump_up" (
+        prepend references = @models/railroad-rail-straight-bump-up.usd@
+    )
+    {
+        double3 xformOp:translate = (49.39784, -0, 8.97973669)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_hill_beginning" (
+        prepend references = @models/railroad-rail-straight-hill-beginning.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8865049, -0, 8.97973621)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_hill_complete_half" (
+        prepend references = @models/railroad-rail-straight-hill-complete-half.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 14.4696051)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_hill_complete" (
+        prepend references = @models/railroad-rail-straight-hill-complete.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, -0, 14.4696051)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_hill_end" (
+        prepend references = @models/railroad-rail-straight-hill-end.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -2.86102295e-06, 14.5049609)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_skew_left_side" (
+        prepend references = @models/railroad-rail-straight-skew-left-side.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4591482, 0.349999994, 14.4696053)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_skew_left" (
+        prepend references = @models/railroad-rail-straight-skew-left.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9476059, 0.247487307, 14.4696051)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_skew_right_side" (
+        prepend references = @models/railroad-rail-straight-skew-right-side.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4500429, 0.349999994, 14.4696053)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight_skew_right" (
+        prepend references = @models/railroad-rail-straight-skew-right.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9388831, 0.247487307, 14.4696051)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_rail_straight" (
+        prepend references = @models/railroad-rail-straight.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205422, -0, 14.4696052)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_bend_large" (
+        prepend references = @models/railroad-straight-bend-large.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091992, -0, 14.4696022)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_bend" (
+        prepend references = @models/railroad-straight-bend.usd@
+    )
+    {
+        double3 xformOp:translate = (49.3978479, -0, 15.4696038)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_bump_down" (
+        prepend references = @models/railroad-straight-bump-down.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, 0.498723298, 14.4696056)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_bump_up" (
+        prepend references = @models/railroad-straight-bump-up.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 19.9594735)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_hill_beginning" (
+        prepend references = @models/railroad-straight-hill-beginning.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48865655, -0, 19.959473)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_hill_complete_half" (
+        prepend references = @models/railroad-straight-hill-complete-half.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 19.9594735)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_hill_complete" (
+        prepend references = @models/railroad-straight-hill-complete.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659467, -0, 19.9594735)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_hill_end" (
+        prepend references = @models/railroad-straight-hill-end.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9545956, -2.86102295e-06, 19.9948293)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_skew_left_side" (
+        prepend references = @models/railroad-straight-skew-left-side.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4392769, 0.493663311, 19.9594737)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_skew_left" (
+        prepend references = @models/railroad-straight-skew-left.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9307327, 0.336758286, 19.9594735)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_skew_right_side" (
+        prepend references = @models/railroad-straight-skew-right-side.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4245098, 0.493663311, 19.9594737)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight_skew_right" (
+        prepend references = @models/railroad-straight-skew-right.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9103517, 0.336758286, 19.9594735)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_railroad_straight" (
+        prepend references = @models/railroad-straight.usd@
+    )
+    {
+        double3 xformOp:translate = (49.39784, -0, 19.9594736)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_spline_segment" (
+        prepend references = @models/spline-segment.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, -0, 21.9594736)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_spline_track_damaged" (
+        prepend references = @models/spline-track-damaged.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_spline_track" (
+        prepend references = @models/spline-track.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_track_detailed" (
+        prepend references = @models/track-detailed.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_track_single_detailed" (
+        prepend references = @models/track-single-detailed.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659467, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_track_single" (
+        prepend references = @models/track-single.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9545956, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_track" (
+        prepend references = @models/track.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4432445, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_box" (
+        prepend references = @models/train-carriage-box.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9318933, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_coal" (
+        prepend references = @models/train-carriage-coal.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205422, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_container_blue" (
+        prepend references = @models/train-carriage-container-blue.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091911, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_container_green" (
+        prepend references = @models/train-carriage-container-green.usd@
+    )
+    {
+        double3 xformOp:translate = (49.39784, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_container_red" (
+        prepend references = @models/train-carriage-container-red.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, -0, 27.449342)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_dirt" (
+        prepend references = @models/train-carriage-dirt.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_flatbed_wood" (
+        prepend references = @models/train-carriage-flatbed-wood.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_flatbed" (
+        prepend references = @models/train-carriage-flatbed.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_lumber" (
+        prepend references = @models/train-carriage-lumber.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659467, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_tank_large" (
+        prepend references = @models/train-carriage-tank-large.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9545956, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_tank" (
+        prepend references = @models/train-carriage-tank.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4432445, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_carriage_wood" (
+        prepend references = @models/train-carriage-wood.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9318933, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_connector" (
+        prepend references = @models/train-connector.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205422, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_a" (
+        prepend references = @models/train-diesel-a.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091911, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_b" (
+        prepend references = @models/train-diesel-b.usd@
+    )
+    {
+        double3 xformOp:translate = (49.39784, -0, 32.9392104)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_box_a" (
+        prepend references = @models/train-diesel-box-a.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, -0, 32.7775989)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_box_b" (
+        prepend references = @models/train-diesel-box-b.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 38.2790788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_box_c" (
+        prepend references = @models/train-diesel-box-c.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, -0, 38.2790788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_diesel_c" (
+        prepend references = @models/train-diesel-c.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_bullet_a" (
+        prepend references = @models/train-electric-bullet-a.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659467, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_bullet_b" (
+        prepend references = @models/train-electric-bullet-b.usd@
+    )
+    {
+        double3 xformOp:translate = (21.9545956, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_bullet_c" (
+        prepend references = @models/train-electric-bullet-c.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4432445, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_city_a" (
+        prepend references = @models/train-electric-city-a.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9318933, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_city_b" (
+        prepend references = @models/train-electric-city-b.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205422, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_city_c" (
+        prepend references = @models/train-electric-city-c.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091911, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_double_a" (
+        prepend references = @models/train-electric-double-a.usd@
+    )
+    {
+        double3 xformOp:translate = (49.39784, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_double_b" (
+        prepend references = @models/train-electric-double-b.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, -0, 38.4290788)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_double_c" (
+        prepend references = @models/train-electric-double-c.usd@
+    )
+    {
+        double3 xformOp:translate = (0, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_square_a" (
+        prepend references = @models/train-electric-square-a.usd@
+    )
+    {
+        double3 xformOp:translate = (5.48864889, -0, 43.8689472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_square_b" (
+        prepend references = @models/train-electric-square-b.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_square_c" (
+        prepend references = @models/train-electric-square-c.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4659467, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_subway_a" (
+        prepend references = @models/train-electric-subway-a.usd@
+    )
+    {
+        double3 xformOp:translate = (22.0420956, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_subway_b" (
+        prepend references = @models/train-electric-subway-b.usd@
+    )
+    {
+        double3 xformOp:translate = (27.4432445, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_electric_subway_c" (
+        prepend references = @models/train-electric-subway-c.usd@
+    )
+    {
+        double3 xformOp:translate = (32.9318933, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_locomotive_a" (
+        prepend references = @models/train-locomotive-a.usd@
+    )
+    {
+        double3 xformOp:translate = (38.4205422, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_locomotive_b" (
+        prepend references = @models/train-locomotive-b.usd@
+    )
+    {
+        double3 xformOp:translate = (43.9091911, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_locomotive_c" (
+        prepend references = @models/train-locomotive-c.usd@
+    )
+    {
+        double3 xformOp:translate = (49.434895, -0, 43.9189472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_locomotive_passenger_a" (
+        prepend references = @models/train-locomotive-passenger-a.usd@
+    )
+    {
+        double3 xformOp:translate = (54.8864889, -0, 43.7689472)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_locomotive_passenger_b" (
+        prepend references = @models/train-locomotive-passenger-b.usd@
+    )
+    {
+        double3 xformOp:translate = (-0.0265711844, -0, 49.2588156)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_tram_classic" (
+        prepend references = @models/train-tram-classic.usd@
+    )
+    {
+        double3 xformOp:translate = (5.46364892, -0, 49.3525656)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_tram_modern" (
+        prepend references = @models/train-tram-modern.usd@
+    )
+    {
+        double3 xformOp:translate = (10.9772978, -0, 49.4088156)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+    def Xform "model_train_tram_round" (
+        prepend references = @models/train-tram-round.usd@
+    )
+    {
+        double3 xformOp:translate = (16.4409467, -0, 49.3588156)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+}

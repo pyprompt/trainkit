@@ -1,0 +1,24 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Asset" (
+    variants = { string model = "a" }
+    prepend variantSets = "model"
+)
+{
+    variantSet "model" = {
+        "a" (
+            prepend references = @../models/train-electric-city-a.usd@
+        ) {}
+        "b" (
+            prepend references = @../models/train-electric-city-b.usd@
+        ) {}
+        "c" (
+            prepend references = @../models/train-electric-city-c.usd@
+        ) {}
+    }
+}

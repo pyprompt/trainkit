@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Asset" (
+    variants = { string model = "standard" }
+    prepend variantSets = "model"
+)
+{
+    variantSet "model" = {
+        "standard-ramp" (
+            prepend references = @../models/railroad-corner-small-ramp.usd@
+        ) {}
+        "standard" (
+            prepend references = @../models/railroad-corner-small.usd@
+        ) {}
+        "damaged-ramp" (
+            prepend references = @../models/railroad-damaged-corner-small-ramp.usd@
+        ) {}
+        "damaged" (
+            prepend references = @../models/railroad-damaged-corner-small.usd@
+        ) {}
+        "rail-ramp" (
+            prepend references = @../models/railroad-rail-corner-small-ramp.usd@
+        ) {}
+        "rail" (
+            prepend references = @../models/railroad-rail-corner-small.usd@
+        ) {}
+    }
+}

@@ -1,0 +1,24 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Asset" (
+    variants = { string model = "standard" }
+    prepend variantSets = "model"
+)
+{
+    variantSet "model" = {
+        "standard" (
+            prepend references = @../models/railroad-curve.usd@
+        ) {}
+        "damaged" (
+            prepend references = @../models/railroad-damaged-curve.usd@
+        ) {}
+        "rail" (
+            prepend references = @../models/railroad-rail-curve.usd@
+        ) {}
+    }
+}

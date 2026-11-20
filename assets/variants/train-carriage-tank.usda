@@ -1,0 +1,21 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Asset" (
+    variants = { string model = "standard" }
+    prepend variantSets = "model"
+)
+{
+    variantSet "model" = {
+        "large" (
+            prepend references = @../models/train-carriage-tank-large.usd@
+        ) {}
+        "standard" (
+            prepend references = @../models/train-carriage-tank.usd@
+        ) {}
+    }
+}

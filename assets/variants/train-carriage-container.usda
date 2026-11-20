@@ -1,0 +1,24 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+    metersPerUnit = 1
+)
+
+def Xform "Asset" (
+    variants = { string model = "blue" }
+    prepend variantSets = "model"
+)
+{
+    variantSet "model" = {
+        "blue" (
+            prepend references = @../models/train-carriage-container-blue.usd@
+        ) {}
+        "green" (
+            prepend references = @../models/train-carriage-container-green.usd@
+        ) {}
+        "red" (
+            prepend references = @../models/train-carriage-container-red.usd@
+        ) {}
+    }
+}
